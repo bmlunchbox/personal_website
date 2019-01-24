@@ -1,0 +1,235 @@
+body {
+	margin: 0;
+	background-color: #F3F3F3;
+	font-family: 'Open Sans', sans-serif;
+	overflow-y: scroll;
+}
+
+.main-container {
+	width: 100%;
+}
+
+#landing {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 80vh;
+	color: #18201D;
+}
+
+.top-bar {
+	height: 72px;
+	top: 0;
+	padding-bottom: 15px;
+}
+
+.link-container {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 425px;
+}
+
+.top-link {
+	float: left;
+	margin: 25px 0 0 30px;
+	padding-bottom: 9px;
+	font-weight: 700;
+	font-size: 1.1em;
+	color: #18201D;
+	text-decoration: none;
+}
+
+	.top-link:hover {
+		color: #FF3B3F;
+	}
+
+.active {
+	color: #FF3B3F;
+	border-bottom: #FF3B3F 4px solid;
+	padding-bottom: 5px;
+}
+
+.resume-link {
+	position: relative;
+	display: inline-block;
+	font-size: 1.2em;
+	height: 34px;
+	color: #F3F3F3;
+	border: #FF3B3F 2px solid;
+	border-radius: 3px;
+	background: #FF3B3F;
+	float: right;
+	margin: 18px 35px 0 20px;
+	box-shadow: none;
+	transition: all 0.2s ease-in-out;
+}
+
+	.resume-link:hover {
+		cursor: pointer;
+		color: #FF3B3F;
+		background: #F3F3F3;
+		box-shadow: 0 2px 4px 0 hsla(0, 0%, 0%, 0.2);
+	}
+
+	.resume-link:focus {
+		outline: none;
+	}
+
+
+.icon-container {
+	float: center;
+	padding: 15px 0;
+}
+
+.icon-container a {
+	color: #D8B699;
+	font-size: 2.25em;
+	padding: 0 16px;
+}
+
+	.icon-container i:hover {
+		color: #DFC3AB;
+	}
+
+.title-container {
+	text-align: center;
+	position: relative;
+	margin: auto;
+	transform: translateY(-10%);	
+	opacity: 1;
+}
+
+.title {
+	font-size: 3.5em;
+	font-weight: 600;
+}
+
+.tagline {
+	padding-bottom: 15px;
+	font-size: 1.5em;
+	font-weight: 600;
+}
+
+.lower-tagline {
+	color: #424846;
+	font-size: 1.15em;
+	padding-top: 15px;
+}
+
+.mgmt {
+	font-style: italic;
+	font-size: 0.96em;
+	color: #FF3B3F;
+	padding-left: 1px;
+	margin-bottom: 3px;
+	text-decoration: none;
+}
+
+#content {
+	width: 100%;
+	margin-top: 40px;
+	margin-bottom: 120px;
+}
+
+.highlight {
+	color: #9D8BE5;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.subtitle {
+	width: 46%;
+	margin: 0 24% 15px 30%;
+	text-align: left;
+	color: #18201D;
+	font-size: 1.65em;
+	font-weight: 600;
+}
+
+.about-text {
+	color: #424846;
+	margin: 10px 24% 50px 30%;
+	text-align: left;
+	width: 46%;
+	word-wrap: break-word;
+	overflow: hidden;
+	font-size: 0.93em;
+	line-height: 1.7;
+}
+
+.about-icon {
+	max-height: 34px;
+	max-width: 34px;
+	padding-right: 10px;
+	margin-left: 25%;
+	float: left;
+}
+
+@media screen and (min-width: 1400px) {
+	.about-icon {
+		max-height: 37px;
+		max-width: 37px;
+		padding-right: 10px;
+		margin-left: 26%;
+		float: left;
+	}
+}
+
+.annotation {
+	font-size: 0.65em;
+	text-align: right;
+	margin-top: 4px;
+}
+
+/*---- Underline effect from Hover.css ----*/
+.underline-effect, .underline-effect-thin {
+	cursor: pointer;
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	position: relative;
+	overflow: hidden;
+}
+
+.underline-effect:before {
+	content: "";
+	position: absolute;
+  	z-index: -1;
+  	left: 51%;
+  	right: 51%;
+  	bottom: 0;
+  	background: #FF3B3F;
+ 	height: 4px;
+  	-webkit-transition-property: left, right;
+  	transition-property: left, right;
+  	-webkit-transition-duration: 0.2s;
+  	transition-duration: 0.2s;
+  	-webkit-transition-timing-function: ease-out;
+  	transition-timing-function: ease-out;
+}
+
+.underline-effect-thin:before {
+  	content: "";
+  	position: absolute;
+  	z-index: -1;
+  	left: 51%;
+  	right: 51%;
+  	bottom: 0;
+  	background: #FF3B3F;
+  	height: 1px;
+  	-webkit-transition-property: left, right;
+  	transition-property: left, right;
+  	-webkit-transition-duration: 0.2s;
+  	transition-duration: 0.2s;
+  	-webkit-transition-timing-function: ease-out;
+  	transition-timing-function: ease-out;
+}
+
+.underline-effect:hover:before, .underline-effect:focus:before, .underline-effect:active:before, 
+.underline-effect-thin:hover:before, .underline-effect-thin:focus:before, .underline-effect-thin:active:before  {
+  	left: 0;
+  	right: 0;
+}
