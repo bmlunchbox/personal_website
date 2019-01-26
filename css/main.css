@@ -13,7 +13,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	width: 100%;
-	height: 80vh;
+	height: 60vh;
 	color: #18201D;
 }
 
@@ -32,10 +32,9 @@ body {
 
 .top-link {
 	float: left;
-	margin: 25px 0 0 30px;
+	margin: 25px 0 0 22px;
 	padding-bottom: 9px;
 	font-weight: 700;
-	font-size: 1.1em;
 	color: #18201D;
 	text-decoration: none;
 }
@@ -50,7 +49,7 @@ body {
 	padding-bottom: 5px;
 }
 
-.resume-link {
+.resume-button {
 	position: relative;
 	display: inline-block;
 	font-size: 1.2em;
@@ -65,17 +64,20 @@ body {
 	transition: all 0.2s ease-in-out;
 }
 
-	.resume-link:hover {
+	.resume-button:hover {
 		cursor: pointer;
 		color: #FF3B3F;
 		background: #F3F3F3;
 		box-shadow: 0 2px 4px 0 hsla(0, 0%, 0%, 0.2);
 	}
 
-	.resume-link:focus {
+	.resume-button:focus {
 		outline: none;
 	}
 
+.landing-content {
+	display: inline-block;
+}
 
 .icon-container {
 	float: center;
@@ -96,13 +98,22 @@ body {
 	text-align: center;
 	position: relative;
 	margin: auto;
-	transform: translateY(-10%);	
+	transform: translateY(10%);	
 	opacity: 1;
 }
 
 .title {
 	font-size: 3.5em;
 	font-weight: 600;
+}
+
+.portrait {
+	border-radius: 100%;
+	box-shadow: 0 2px 4px 0 hsla(0, 0%, 0%, 0.2);
+	margin: auto;
+	max-width: 120px;
+	max-height: 120px;
+	float: left;
 }
 
 .tagline {
@@ -127,9 +138,13 @@ body {
 }
 
 #content {
-	width: 100%;
+	text-align: center;
 	margin-top: 40px;
 	margin-bottom: 120px;
+}
+
+.content-container {
+	display: inline-block;
 }
 
 .highlight {
@@ -140,7 +155,7 @@ body {
 
 .subtitle {
 	width: 46%;
-	margin: 0 24% 15px 30%;
+	margin: 0 26% 15px 28%;
 	text-align: left;
 	color: #18201D;
 	font-size: 1.65em;
@@ -148,30 +163,48 @@ body {
 }
 
 .about-text {
-	color: #424846;
-	margin: 10px 24% 50px 30%;
+	color: #1e1e1e;
+	margin: 10px 26% 46px 28%;
 	text-align: left;
-	width: 46%;
+	width: 48%;
 	word-wrap: break-word;
 	overflow: hidden;
-	font-size: 0.93em;
-	line-height: 1.7;
+	font-size: 0.9em;
+	line-height: 1.8;
 }
 
 .about-icon {
 	max-height: 34px;
 	max-width: 34px;
 	padding-right: 10px;
-	margin-left: 25%;
+	margin-left: 23%;
 	float: left;
 }
 
+
 @media screen and (min-width: 1400px) {
+	#landing {
+		height: 40vh;
+	}
+
+	.link-container {
+		width: 475px;
+	}
+
+	.top-link {
+		margin: 25px 0 0 30px;
+		font-size: 1.1em;
+	}
+
+	.content-container {
+		width: 75%;
+	}
+
 	.about-icon {
 		max-height: 37px;
 		max-width: 37px;
 		padding-right: 10px;
-		margin-left: 26%;
+		margin-left: 24%;
 		float: left;
 	}
 }
