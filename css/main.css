@@ -32,7 +32,7 @@ body {
 
 .top-link {
 	float: left;
-	margin: 25px 0 0 22px;
+	margin: 25px 5px 0 22px;
 	padding-bottom: 9px;
 	font-weight: 700;
 	color: #18201D;
@@ -132,6 +132,14 @@ body {
 	margin-bottom: 80px;
 }
 
+#content-exp {
+	text-align: center;
+	width: 100%;
+	float: center;
+	margin-top: 20px;
+	margin-bottom: 80px;
+}
+
 .portrait {
 	float: center;
 	border-radius: 100%;
@@ -142,7 +150,7 @@ body {
 }
 
 p {
-	margin-top: 5px;
+	margin-top: 8px;
 	margin-bottom: 0;
 }
 
@@ -161,7 +169,7 @@ p {
 
 .subtitle {
 	width: 46%;
-	margin: 0 26% 15px 28%;
+	margin: 0 26% 15px 29%;
 	text-align: left;
 	color: #18201D;
 	font-size: 1.65em;
@@ -170,13 +178,13 @@ p {
 
 .about-text {
 	color: #1e1e1e;
-	margin: 10px 26% 16px 28%;
+	margin: 10px 26% 16px 29%;
 	text-align: left;
 	height: auto;
-	width: 48%;
+	width: 50%;
 	word-wrap: break-word;
 	overflow: hidden;
-	font-size: 0.9em;
+	font-size: 0.88em;
 	line-height: 1.8;
 }
 
@@ -184,8 +192,26 @@ p {
 	max-height: 34px;
 	max-width: 34px;
 	padding-right: 10px;
-	margin-left: 23%;
+	margin-left: 24%;
 	float: left;
+}
+
+.experience-content {
+	margin-left: 26%;
+	width: 52%;
+}
+
+.item-list {
+	margin: 15px auto;
+}
+
+ul {
+	padding-left: 1em;
+}
+
+li {
+	list-style-position: outside;
+	padding-left: 0.4em;
 }
 
 .annotation {
