@@ -75,10 +75,6 @@ body {
 		outline: none;
 	}
 
-.landing-content {
-	display: inline-block;
-}
-
 .icon-container {
 	float: center;
 	padding: 15px 0;
@@ -98,22 +94,13 @@ body {
 	text-align: center;
 	position: relative;
 	margin: auto;
-	transform: translateY(10%);	
+	transform: translateY(-15%);	
 	opacity: 1;
 }
 
 .title {
 	font-size: 3.5em;
 	font-weight: 600;
-}
-
-.portrait {
-	border-radius: 100%;
-	box-shadow: 0 2px 4px 0 hsla(0, 0%, 0%, 0.2);
-	margin: auto;
-	max-width: 120px;
-	max-height: 120px;
-	float: left;
 }
 
 .tagline {
@@ -139,12 +126,31 @@ body {
 
 #content {
 	text-align: center;
+	width: 100%;
+	float: center;
 	margin-top: 40px;
-	margin-bottom: 120px;
+	margin-bottom: 80px;
+}
+
+.portrait {
+	float: center;
+	border-radius: 100%;
+	box-shadow: 0 2px 4px 0 hsla(0, 0%, 0%, 0.2);
+	margin: auto;
+	max-width: 120px;
+	max-height: 120px;
+}
+
+p {
+	margin-top: 5px;
+	margin-bottom: 0;
 }
 
 .content-container {
 	display: inline-block;
+	margin-top: 20px;
+	height: 1.5em;
+	width: 100%;
 }
 
 .highlight {
@@ -164,8 +170,9 @@ body {
 
 .about-text {
 	color: #1e1e1e;
-	margin: 10px 26% 46px 28%;
+	margin: 10px 26% 16px 28%;
 	text-align: left;
+	height: auto;
 	width: 48%;
 	word-wrap: break-word;
 	overflow: hidden;
@@ -181,10 +188,15 @@ body {
 	float: left;
 }
 
+.annotation {
+	font-size: 0.65em;
+	text-align: right;
+	margin-top: 4px;
+}
 
 @media screen and (min-width: 1400px) {
 	#landing {
-		height: 40vh;
+		height: 45vh;
 	}
 
 	.link-container {
@@ -196,8 +208,12 @@ body {
 		font-size: 1.1em;
 	}
 
+	.portrat {
+		display: inline-block;
+	}
+
 	.content-container {
-		width: 75%;
+		width: 70%;
 	}
 
 	.about-icon {
@@ -207,12 +223,6 @@ body {
 		margin-left: 24%;
 		float: left;
 	}
-}
-
-.annotation {
-	font-size: 0.65em;
-	text-align: right;
-	margin-top: 4px;
 }
 
 /*---- Underline effect from Hover.css ----*/
