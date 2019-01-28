@@ -124,6 +124,10 @@ body {
 	text-decoration: none;
 }
 
+.strikeout {
+	text-decoration: line-through;
+}
+
 #content {
 	text-align: center;
 	width: 100%;
@@ -212,6 +216,16 @@ ul {
 li {
 	list-style-position: outside;
 	padding-left: 0.4em;
+}
+
+.tech {
+	list-style: none;
+	text-indent: 2em;
+	font-size: 0.8em;
+}
+
+.red {
+	color: #FF3B3F;
 }
 
 .annotation {
