@@ -218,13 +218,15 @@ li {
 	padding-left: 0.4em;
 }
 
+.between-lists {
+	margin: 25px auto 0 auto;
+}
+
 .tech {
 	list-style: none;
 	text-indent: 2em;
-	font-size: 0.8em;
-}
-
-.red {
+	font-size: 0.72em;
+	text-align: right;
 	color: #FF3B3F;
 }
 
