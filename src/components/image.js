@@ -26,7 +26,7 @@ const ProfileImage = () => {
     }
   `)
 
-  return <Img className="portrait" fluid={data.profileImage.childImageSharp.fluid} />
+  return <Img fluid={data.profileImage.childImageSharp.fluid} />
 }
 
 export default ProfileImage
