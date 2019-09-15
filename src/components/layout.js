@@ -15,7 +15,7 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         <footer className="footer-container">
           <span className="footer-block">Copyright {new Date().getFullYear()} Brandon Leung</span>
-          <span>Designed inspired by Nick Zuber, built with Gatsby.</span> 
+          <span>Design inspired by Nick Zuber, built with Gatsby.</span> 
         </footer>
       </div>
     </>
