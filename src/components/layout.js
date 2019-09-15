@@ -8,16 +8,14 @@ const Layout = ({ children }) => {
     <>
       <div
         style={{
-          margin: `0 auto`,
           maxWidth: 960,
           paddingTop: 0,
         }}
       >
         <main>{children}</main>
         <footer className="footer-container">
-          Copyright Brandon Leung {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <span className="footer-block">Copyright {new Date().getFullYear()} Brandon Leung</span>
+          <span>Designed inspired by Nick Zuber, built with Gatsby.</span> 
         </footer>
       </div>
     </>

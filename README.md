@@ -1,3 +1,3 @@
-my personal website!
+welcome to my personal website
 
-built using Gatsby (React), HTML/CSS
+built using Gatsby (React)
