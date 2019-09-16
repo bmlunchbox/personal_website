@@ -27,10 +27,6 @@ body {
   margin: 0 auto;
 }
 
-.link {
-  background: #F46B3F;
-}
-
 .profile-info {
   width: 50%;
   height: 100%;
@@ -204,6 +200,27 @@ h2 {
 .pt-links span {
   margin-right: 4%;
   font-size: 0.8em;
+}
+
+.book-container {
+  margin-bottom: 3%;
+  display: block;
+}
+
+.book-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.author {
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+.book-description {
+  font-size: 0.9em;
+  line-height: 150%;
 }
 
 .sub-content {

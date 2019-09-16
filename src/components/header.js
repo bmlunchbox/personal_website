@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaLinkedin, FaGithub, FaFileAlt } from 'react-icons/fa'
 import { ProfileImage } from "../components/image"
+import Pdf from '../assets/brandonleungresume.pdf'
 
 const Header = () => {
     return (
@@ -13,7 +14,7 @@ const Header = () => {
                 <div className="sub2">brandonmichael.kg@gmail.com</div>
 
                 <div className="icon-container">
-                <a href="/" target="_blank" rel="noopener noreferrer" style={{'marginLeft':'0'}}>
+                <a href={Pdf} target="_blank" rel="noopener noreferrer" style={{'marginLeft':'0'}}>
                     <FaFileAlt style={{'fill':'#454545'}}/>
                 </a>
                 <a href="https://github.com/brandonleung" target="_blank" rel="noopener noreferrer">

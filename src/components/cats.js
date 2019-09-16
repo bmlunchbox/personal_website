@@ -15,7 +15,7 @@ const Cats = () => {
                 <img className="cats-img" src={nalaRandall} />
             </div>
             <div className="content-container">
-                My brother and I run an <a>Instagram</a> full of cat pictures for friends and family.
+                My brother and I run an <a href="https://www.instagram.com/brandonjuliancats/" target="_blank" rel="noopener noreferrer">Instagram</a> full of cat pictures for friends and family.
             </div>
         </div>
     );

@@ -28,9 +28,9 @@ const Projects = () => {
                             </div>
                         </div>
                         <div className="pt-links">
-                            <span><FaGithub /><a>Frontend</a></span>
-                            <span><FaGithub /><a>Backend</a></span>
-                            <span><FaGlobeAmericas /><a>Website</a></span>
+                            <span><FaGithub /><a href="https://github.com/uwblueprint/travelwise-react" target="_blank" rel="noopener noreferrer">Frontend</a></span>
+                            <span><FaGithub /><a href="https://github.com/uwblueprint/travelwise-backend" target="_blank" rel="noopener noreferrer">Backend</a></span>
+                            <span><FaGlobeAmericas /><a href="https://www.regionofwaterloo.ca/en/doing-business/travelwise.aspx" target="_blank" rel="noopener noreferrer">Website</a></span>
                         </div>
                     </div>
                 </div>
@@ -57,9 +57,9 @@ const Projects = () => {
                             </div>
                         </div>
                         <div className="pt-links">
-                            <span><FaGithub /><a>Web App</a></span>
-                            <span><FaGithub /><a>Android</a></span>
-                            <span><FaGlobeAmericas /><a>Website</a></span>
+                            <span><FaGithub /><a href="https://github.com/uwblueprint/dancefest-web" target="_blank" rel="noopener noreferrer">Web App</a></span>
+                            <span><FaGithub /><a href="https://github.com/uwblueprint/dancefest-android" target="_blank" rel="noopener noreferrer">Android</a></span>
+                            <span><FaGlobeAmericas /><a href="https://www.ontariosecondaryschooldancefest.ca/" target="_blank" rel="noopener noreferrer">Website</a></span>
                         </div>
                     </div>
                 </div>
@@ -96,12 +96,12 @@ const Projects = () => {
                     <div className="pt-right">
                         <div className="pt-desc">
                             <div style={{'margin':'1% auto'}}>
-                                Blueprint has built a performance adjudication platform and administrative platform on web and Android.
+                                Blueprint built an appointment scheduling web app for child treatment centers using React, Express, Node, and Mongo.
                             </div>
                         </div>
                         <div className="pt-links">
-                            <span><FaGithub /><a>Github</a></span>
-                            <span><FaGlobeAmericas /><a>Website</a></span>
+                            <span><FaGithub /><a href="https://github.com/uwblueprint/KidsAbility" target="_blank" rel="noopener noreferrer">Github</a></span>
+                            <span><FaGlobeAmericas /><a href="https://www.kidsability.ca/" target="_blank" rel="noopener noreferrer">Website</a></span>
                         </div>
                     </div>
                 </div>
@@ -126,7 +126,7 @@ const Projects = () => {
                             </div>
                         </div>
                         <div className="pt-links">
-                            <span><FaGithub /><a>Github</a></span>
+                            <span><FaGithub /><a href="https://github.com/brandonleung/Denzel" target="_blank" rel="noopener noreferrer">Github</a></span>
                         </div>
                     </div>
                 </div>
