@@ -30,7 +30,7 @@ const Projects = () => {
                         <div className="pt-links">
                             <span><FaGithub /><a href="https://github.com/uwblueprint/travelwise-react" target="_blank" rel="noopener noreferrer">Frontend</a></span>
                             <span><FaGithub /><a href="https://github.com/uwblueprint/travelwise-backend" target="_blank" rel="noopener noreferrer">Backend</a></span>
-                            <span><FaGlobeAmericas /><a href="https://www.regionofwaterloo.ca/en/doing-business/travelwise.aspx" target="_blank" rel="noopener noreferrer">Website</a></span>
+                            <span><FaGlobeAmericas /><a href="https://www.regionofwaterloo.ca/en/doing-business/travelwise.aspx" target="_blank" rel="noopener noreferrer">Organization Website</a></span>
                         </div>
                     </div>
                 </div>
@@ -59,7 +59,7 @@ const Projects = () => {
                         <div className="pt-links">
                             <span><FaGithub /><a href="https://github.com/uwblueprint/dancefest-web" target="_blank" rel="noopener noreferrer">Web App</a></span>
                             <span><FaGithub /><a href="https://github.com/uwblueprint/dancefest-android" target="_blank" rel="noopener noreferrer">Android</a></span>
-                            <span><FaGlobeAmericas /><a href="https://www.ontariosecondaryschooldancefest.ca/" target="_blank" rel="noopener noreferrer">Website</a></span>
+                            <span><FaGlobeAmericas /><a href="https://www.ontariosecondaryschooldancefest.ca/" target="_blank" rel="noopener noreferrer">Organization Website</a></span>
                         </div>
                     </div>
                 </div>
@@ -101,7 +101,7 @@ const Projects = () => {
                         </div>
                         <div className="pt-links">
                             <span><FaGithub /><a href="https://github.com/uwblueprint/KidsAbility" target="_blank" rel="noopener noreferrer">Github</a></span>
-                            <span><FaGlobeAmericas /><a href="https://www.kidsability.ca/" target="_blank" rel="noopener noreferrer">Website</a></span>
+                            <span><FaGlobeAmericas /><a href="https://www.kidsability.ca/" target="_blank" rel="noopener noreferrer">Organization Website</a></span>
                         </div>
                     </div>
                 </div>

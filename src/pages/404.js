@@ -1,7 +1,5 @@
 import React from "react"
 
-import Layout from "../components/layout"
-
 const NotFoundPage = () => (
     <div style={{'text-align':'center', 'paddingTop':'10%','width':'100%'}}>
       <h1>There's nothing here!</h1>

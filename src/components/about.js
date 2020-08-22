@@ -12,7 +12,7 @@ const About = () => {
             </div>
             <div className="content-container">
                 In my spare time, I like studying and learning about certain areas of software engineering and human behaviour. My current interests span distributed  
-                systems, human factors, user experience and interfaces, and web technologies.
+                systems, human factors, user experience, and web technologies.
             </div>
             <div className="content-container">
                 Some other things I enjoy: <a href="https://uwdbc.com/" target="_blank" rel="noopener noreferrer">dragon boat</a>, theology, AWS, homecooked meals, Kubernetes, the Raptors, weightlifting, crosswords, comic books, scented candles, and <a href="#cats">hanging out with my cats</a>.

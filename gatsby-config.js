@@ -14,6 +14,12 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
+    {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: 'brandonmichaelleung.com'
+      }
+    },
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,

@@ -10,6 +10,7 @@
     "gatsby-plugin-manifest": "^2.2.16",
     "gatsby-plugin-offline": "^2.2.10",
     "gatsby-plugin-react-helmet": "^3.1.7",
+    "gatsby-plugin-s3": "^0.3.2",
     "gatsby-plugin-sharp": "^2.2.21",
     "gatsby-source-filesystem": "^2.1.22",
     "gatsby-transformer-sharp": "^2.2.14",
@@ -33,7 +34,8 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \"",
+    "deploy": "gatsby-plugin-s3 deploy"
   },
   "repository": {
     "type": "git",

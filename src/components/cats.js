@@ -14,7 +14,7 @@ const Cats = () => {
                 <img className="cats-img" src={scully} />
                 <img className="cats-img" src={nalaRandall} />
             </div>
-            <div className="content-container">
+            <div className="content-container" style={{'textAlign':'center'}}>
                 My brother and I run an <a href="https://www.instagram.com/brandonjuliancats/" target="_blank" rel="noopener noreferrer">Instagram</a> full of cat pictures for friends and family.
             </div>
         </div>

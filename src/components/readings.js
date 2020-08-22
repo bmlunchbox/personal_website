@@ -38,7 +38,7 @@ const Readings = () => {
         <div className="content-container" style={{'fontSize':'0.8em'}}>
             (*) currently reading
         </div>
-        <div className="content-container" style={{'fontSize':'0.8em'}}>Special thanks for Alli for getting me a Kindle; helping me get back into reading.</div>
+        <div className="content-container" style={{'fontSize':'0.8em'}}>Special thanks to Alli for getting me a Kindle; helping me get back into reading.</div>
         </div>
     );
 }
