@@ -3,3 +3,5 @@ node_modules/
 
 src/assets/
 src/images
+
+public/page-data

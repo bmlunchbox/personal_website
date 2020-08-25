@@ -263,3 +263,12 @@ h2 {
     font-size: 100%;
   }
 }
+
+.clubs-content {
+  padding-left: 10%;
+  font-size: 0.8em;
+}
+
+.bullet {
+  margin-right: 4%;
+}

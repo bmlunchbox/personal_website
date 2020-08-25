@@ -5,10 +5,73 @@ const Projects = () => {
     return (
         <div id="projects" className="section" style={{'background': '#FFFCD9'}}>
             <h2 className="projects-section">Projects</h2>
-            <div className="content-container">
-                Recent escapades in student design teams, development, and coursework.
+
+            <div className="content-container" style={{'marginTop':'2%'}}>
+                <div className="pt-container">
+                    <div className="pt-info">
+                        <div className="pt-title">Tenet</div>
+                        <div className="sub1" style={{'letterSpacing':'0'}}>Final Year Design Project</div>
+                        <div className="pt-tags">
+                            <span style={{'background':'#A0DBFE'}}>student team</span>
+                        </div>
+                    </div>
+                    <div className="pt-right">
+                        <div className="pt-desc" style={{'margin-bottom': '1%'}}>We are building a no-code platform for building logistics and administrative apps. It is NLP-powered and recommends app templates based on an interaction ontology. Links will be up soon.
+                            <div style={{'margin-top':'1%', 'font-size': '0.9em'}}>
+                                <i>Using Python, Apache Thrift, Docker, Kubernetes, PostgreSQL, MongoDB, Flask, React, and Redux. </i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div className="content-container" style={{'marginTop':'4%'}}>
+
+            <div className="content-container" style={{'marginTop':'3%'}}>
+                <div className="pt-container">
+                    <div className="pt-info">
+                        <div className="pt-title">Shopify Store Mining</div>
+                        <div className="sub1" style={{'letterSpacing':'0'}}>MSCI 446: Data Mining</div>
+                        <div className="pt-tags">
+                            <span style={{'background':'#e5e1e0'}}>python script</span>
+                        </div>
+                    </div>
+                    <div className="pt-right">
+                        <div className="pt-desc">Applied k-means clustering and logistical regression to find a correlation between app descriptions and review sentiments. 
+                            <div style={{'margin-top':'1%', 'font-size': '0.9em'}}>
+                                <i>Made with Python, pandas, and NLTK. </i>
+                            </div>
+                        </div>
+                        <div className="pt-links">
+                            <span><FaGithub /><a href="https://github.com/brandonleung/StoreMining" target="_blank" rel="noopener noreferrer">Github</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="content-container" style={{'marginTop':'3%'}}>
+                <div className="pt-container">
+                    <div className="pt-info">
+                        <div className="pt-title">Business Education Partnership</div>
+                        <div className="sub1" style={{'letterSpacing':'0'}}>UW Blueprint</div>
+                        <div className="pt-tags">
+                            <span style={{'background':'#E5B9F2'}}>web app</span>
+                            <span style={{'background':'#A0DBFE'}}>student team</span>
+                        </div>
+                    </div>
+                    <div className="pt-right">
+                        <div className="pt-desc" style={{'margin-bottom': '1%'}}>A platform to help teachers find local professionals for school events.
+                            <div style={{'margin-top':'8%', 'font-size': '0.9em'}}>
+                                <i>Made with React, Redux, Express, Node, and Salesforce Lightning. </i>
+                            </div>
+                        </div>
+                        <div className="pt-links">
+                            <span><FaGithub /><a href="https://github.com/uwblueprint/BEP/" target="_blank" rel="noopener noreferrer">Github</a></span>
+                            <span><FaGlobeAmericas /><a href="http://www.bus-edpartnership.org/" target="_blank" rel="noopener noreferrer">Organization Website</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="content-container" style={{'marginTop':'3%'}}>
                 <div className="pt-container">
                     <div className="pt-info">
                         <div className="pt-title">TravelWise</div>
@@ -19,12 +82,9 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="pt-right">
-                        <div className="pt-desc">TravelWise is an initiative by Waterloo Sustainable Region, aiming to help companies coordinate carpools.
-                            <div style={{'margin':'1% auto'}}>
-                                Blueprint is building an administration and communications platform for TravelWise, key features include a news feed and document hosting. 
-                            </div>
-                            <div style={{'margin':'1% auto'}}>
-                                Made with React, Apollo GraphQL, TypeScript, Node, Express, Hasura, and Postgres. 
+                        <div className="pt-desc">An app for Waterloo Sustainable Region to help local companies coordinate carpools.
+                            <div style={{'margin-top':'1%', 'font-size': '0.9em'}}>
+                                <i>Made with React, Apollo GraphQL, Node, Express, Hasura, and PostgresSQL. </i>
                             </div>
                         </div>
                         <div className="pt-links">
@@ -36,24 +96,21 @@ const Projects = () => {
                 </div>
             </div>
 
-            <div className="content-container" style={{'marginTop':'2%'}}>
+            <div className="content-container" style={{'marginTop':'3%'}}>
                 <div className="pt-container">
                     <div className="pt-info">
                         <div className="pt-title">DanceFest</div>
                         <div className="sub1" style={{'letterSpacing':'0'}}>UW Blueprint</div>
                         <div className="pt-tags">
                             <span style={{'background':'#E5B9F2'}}>web app</span>
-                            <span style={{'background':'#A0DBFE'}}>student team</span>
                             <span style={{'background':'#F2C4B7'}}>android</span>
+                            <span style={{'background':'#A0DBFE'}}>student team</span>
                         </div>
                     </div>
                     <div className="pt-right">
-                        <div className="pt-desc">DanceFest is a free dance program that encourages grade school students to participate in an expressive and active extracurricular.
-                            <div style={{'margin':'1% auto'}}>
-                                Blueprint has built a performance adjudication platform and administrative platform on web and Android.
-                            </div>
-                            <div style={{'margin':'1% auto'}}>
-                                Made with React, Python, Flask, Kotlin, and Postgres. 
+                        <div className="pt-desc">An offline-first platform (Android + web) to support the event logistics for a non-profit dance program for grade school students.
+                            <div style={{'margin-bottom':'1%', 'margin-top':'6%', 'font-size':'0.9em'}}>
+                                <i>Made with React, Python, Apache Thrift, Flask, Kotlin, and PostgresSQL. </i>
                             </div>
                         </div>
                         <div className="pt-links">
@@ -65,25 +122,7 @@ const Projects = () => {
                 </div>
             </div>
             
-            <div className="content-container" style={{'marginTop':'4%'}}>
-                <div className="pt-container">
-                    <div className="pt-info">
-                        <div className="pt-title">Compiler</div>
-                        <div className="pt-tags">
-                            <span style={{'background':'#E5B9F2'}}>development</span>
-                        </div>
-                    </div>
-                    <div className="pt-right">
-                        <div className="pt-desc">I'm in the process of learning about compilers and building one from scratch using Rust.
-                            <div style={{'margin':'1% auto'}}>
-                                You can expect a Github link in the coming weeks.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div className="content-container" style={{'marginTop':'4%'}}>
+            <div className="content-container" style={{'marginTop':'3%'}}>
                 <div className="pt-container">
                     <div className="pt-info">
                         <div className="pt-title">KidsAbility</div>
@@ -96,7 +135,10 @@ const Projects = () => {
                     <div className="pt-right">
                         <div className="pt-desc">
                             <div style={{'margin':'1% auto'}}>
-                                Blueprint built an appointment scheduling web app for child treatment centers using React, Express, Node, and Mongo.
+                                An appointment scheduling tool for child treatment centers.
+                            </div>
+                            <div style={{'margin-bottom':'1%', 'margin-top':'2%', 'font-size':'0.9em'}}>
+                                <i>Made with React, Express, Node, and MongoDB. </i>
                             </div>
                         </div>
                         <div className="pt-links">
@@ -107,30 +149,22 @@ const Projects = () => {
                 </div>
             </div>
 
-            <div className="content-container" style={{'marginTop':'4%'}}>
+            <div className="content-container" style={{'marginTop':'3%'}}>
                 <div className="pt-container">
                     <div className="pt-info">
-                        <div className="pt-title">DSS for Engineering Electives</div>
-                        <div className="sub1" style={{'fontSize':'0.8em','letterSpacing':'0'}}>MSCI 436: Decision Support Systems</div>
-                        <div className="pt-tags">
-                            <span style={{'background':'#E5B9F2'}}>web app</span>
-                            <span style={{'background':'#A0DBFE'}}>coursework</span>
-                            <span style={{'background':'#F2C4B7'}}>development</span>
-                        </div>
+                        <div className="pt-title">Various Distributed Computing Projects</div>
+                        <div className="sub1" style={{'margin-top': '3%', 'letterSpacing':'0'}}>ECE 454: Distributed Computing</div>
                     </div>
                     <div className="pt-right">
-                        <div className="pt-desc">As part of the Decision Support Systems course (basically an intro to ML), I built a decision support system 
-                        to help Waterloo engineers with selecting electives.
-                            <div style={{'margin':'1% auto'}}>
-                                I used Python and Selenium for scraping university and course review websites. The web app was created using React, Express, Node, and Mongo.
+                        <div className="pt-desc" style={{'margin-bottom': '1%'}}>Learned about scalability, efficiency, concurrency control, and fault tolerance across 5 practical projects.
+                            <div style={{'margin-top':'3%', 'font-size': '0.9em'}}>
+                                <i>Used Java, Scala, Apache Thrift, Apache Kafka, Apache Hadoop, Apache Spark, Apache ZooKeeper, and Bash. </i>
                             </div>
-                        </div>
-                        <div className="pt-links">
-                            <span><FaGithub /><a href="https://github.com/brandonleung/Denzel" target="_blank" rel="noopener noreferrer">Github</a></span>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
     )
 }

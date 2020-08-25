@@ -24,17 +24,20 @@ const Header = () => {
                     <FaLinkedin style={{'fill':'#454545'}}/>
                 </a>
                 </div>
-
+                
                 <div class="link-container">
-                <a style={{'margin-left':'0'}} href="#timeline">Timeline</a>
+                <a style={{'margin-left':'0'}} href="#experience">Experience</a>
                 <a href="#projects">Projects</a>
-                <a href="#readings">Readings</a>
                 <a href="#cats">Cats</a>
                 </div>
+                
             </div>
             
             <div className="portrait">
                 <ProfileImage />
+            </div>
+            <div className="content-container" style={{'marginLeft':'0', 'font-size': '0.95em', 'paddingTop':'48%'}}>
+                I'm looking for a 2021 new grad software engineering role. Here's my <a href={Pdf} target="_blank" rel="noopener noreferrer">resume</a> and my <a href="https://www.linkedin.com/in/brandonmichaelkg/" target="_blank" rel="noopener noreferrer">LinkedIn</a>. Please let me know if we'd be a good match!
             </div>
             </div>
         </div>

@@ -5,7 +5,6 @@ import Header from "../components/header"
 import About from "../components/about"
 import Timeline from "../components/timeline"
 import Projects from "../components/projects"
-import Readings from "../components/readings"
 import Cats from "../components/cats"
 
 const IndexPage = () => (
@@ -14,7 +13,6 @@ const IndexPage = () => (
     <About />
     <Timeline />
     <Projects />
-    <Readings />
     <Cats />
   </Layout>
 )
